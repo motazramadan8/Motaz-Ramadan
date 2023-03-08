@@ -1,0 +1,389 @@
+nav{
+  background-color: rgb(27, 15, 63);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+.navv{
+margin-left: 25px;
+color: rgb(172, 188, 203);
+margin-top: 0px;
+padding-top: 22px;
+padding-bottom: 20px;
+margin-bottom: 0px;
+padding-left: 20px;
+padding-right: 20px;
+margin-right: 5px;
+}
+.navv:hover{
+  background-color: rgba(150, 150, 150, 0.625);
+  margin-left: 25px;
+  color: #efefef;
+  margin-top: 0px;
+  padding-top: 22px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 5px;
+}
+.togglesearch{
+background: #E8E8E4;
+position: absolute;
+top: 54px;
+left: 28.7%;
+width: 320px;
+height: 73px;
+line-height: 60px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+display: none;
+}
+
+.togglesearch:before{
+content: "";
+position: absolute;
+top: -32px;
+right: 13px;
+border-left: 12px solid transparent;
+border-right: 12px solid transparent;
+border-top: 14px solid transparent;
+}
+
+.togglesearch input[type="text"]{
+width: 200px;
+padding: 5px 10px;
+margin-left: 23px;
+border: 1px solid #d80b1500;
+outline: none;
+}
+
+.togglesearch input[type="button"]{
+width: 80px;
+padding: 5px 0;
+background: #52b035;
+color: #fff;
+border: 1px solid #52b035;
+outline: none;
+cursor: pointer;
+}
+.btn{
+  color: #efefef;
+  border-color: rgb(197, 197, 197);
+  border-width: 1px;
+  border-radius: 50px;
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 20px;
+
+}
+.btn:hover{
+  color: #efefef;
+  border-color: rgb(197, 197, 197);
+  border-width: 1px;
+  border-radius: 0px;
+  margin-top: 20px;
+  margin-left: 15px;
+  background-color: rgba(150, 150, 150, 0.625);
+}
+
+.btnsandl{
+background-color: rgb(27, 15, 63);
+padding: 10px 20px;
+margin-top: 20px;
+margin-right: 20px;
+color: white;
+border: 2px solid rgb(59, 37, 126);
+transition: 0.2s all ease;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.btnsandl:hover{
+background-color: rgb(59, 37, 126);
+padding: 10px 20px;
+margin-top: 15px;
+margin-left: 20px;
+color: white;
+border: 2px solid rgb(21, 121, 183);
+}
+
+
+
+
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Stay on top */
+  top: 70px;
+  left: 0;
+  background-color: #fff; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding-top: 30px;
+  padding-left: 130px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #444;
+  display: block;
+  transition: 0.3s;
+  width: 300px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #52b035;
+}
+
+.sidenav .sse{
+  outline: none;
+  border: none;
+  width: 90%;
+  height: 60px;
+  direction: rtl;
+  margin-left: 10px;
+  background-color: #fff;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.menu{
+  margin-top: 0;
+  color: white;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-right: 20px;
+  margin-right: 0px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.menu:hover{
+  margin-top: 0;
+  color: white;
+  font-size: 30px;
+  padding-top: 15px;
+  background-color: #818181;
+  padding-right: 20px;
+  margin-right: 0px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+
+.logo{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.logo2{
+  margin-left: 30px;
+  display: none;
+  width: 40px;
+}
+
+.ttttt{
+  /* color: rgb(172, 188, 203); */
+  color: rgba(255, 255, 255, 0.815);
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s all ease;
+  position: static;
+  margin-top: 10px;
+}
+.ttttt:hover{
+  /* color: rgb(172, 188, 203); */
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+.menuuuuuu{
+  background-color: white;
+  color: white;
+  height: 2px;
+  width: 20px;
+}
+
+@media (max-width: 780px) {
+  .ttttt{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin-bottom: 60px;
+    display: none;
+  }
+
+  .sea{
+    display: none;
+  }
+
+  .new{
+    display: none;
+  }
+
+  .seec{
+    width: 600px;
+    height: 70px;
+    background-color: #fff;
+    border: none;
+  }
+  
+  
+}
+
+
+@media (max-width: 450px) {
+
+  nav{
+    background-color: rgb(27, 15, 63);
+    height: 86px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Stay on top */
+  top: 86px;
+  right: 0;
+  background-color: #fff; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+}
+
+.bbbbuton{
+  margin-top: 15px;
+
+}
+
+  .logo{
+    margin-right: 30px;
+    margin-bottom: 20px;
+    display: none;
+  }
+
+  .logo2{
+    display: inline;
+    margin-bottom: 30px;
+    margin-right: 15px;
+  }
+
+  .btnsandl{
+    margin-top: 23px;
+    padding: 7px 14px;
+  }
+
+  .right_nav{
+    display: flex;
+  }
+
+}
+
+.sec1{
+  background-image: url("hero-33cc6eb8f1a98f8aacf154a4ff4c5f76d5610553e8ba4accb6d22515a64a184a.jpg");
+  background-size: cover;
+  height: 700px;
+}
+
+.hhh1{
+  margin-top: 230px;
+  color: black;
+  font-size: 35px;
+  text-align: center;
+}
+
+.pp1{
+  text-align: center;
+  margin-top: 25px;
+  font-size: 19px;
+}
+
+.searrrr{
+  direction: rtl;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #ccc;
+  width: 666px;
+  margin: auto;
+  z-index: 6;
+}
+
+.seec{
+  width: 600px;
+  height: 70px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  padding-right: 10px;
+}
+
+.seec::placeholder{
+  padding-right: 10px;
+}
+
+.sub{
+  background-color: #52b035;
+  border: none;
+  color: white;
+  padding: 15px;
+  outline: #fff solid 8px;
+
+}
+.right_nav{
+display: inline-flex;
+margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
