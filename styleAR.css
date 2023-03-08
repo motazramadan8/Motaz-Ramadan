@@ -380,7 +380,15 @@ margin-top: 20px;
 
 
 
+.avatar{
+  margin-right: 200px;
+}
 
+@media screen (max-width: 550px){
+  .avatar{
+  margin-right: 0;
+}
+}
 
 
 
